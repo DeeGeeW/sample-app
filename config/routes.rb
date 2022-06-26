@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get "/testtest", controller: "example_pages", action: "testtest"
   get "/url", controller: "example_pages", action: "url"
   get "/hayhay", controller: "example_pages", action: "hayhay"
+  get "/time", controller: "example_pages", action: "time"
 end
